@@ -1,0 +1,71 @@
+body
+{
+	background-color white;
+}
+
+nav
+{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#0B4D9C;
+}
+
+nav a
+{
+	color:#fff;
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+nav img
+{
+		height: 60px;
+		position: relative;
+		top: 20px;
+		margin-right: 10px;
+}
+
+h1
+{
+	text-align: center;
+}
+
+section
+{
+	position: relative;
+	left: 20%;
+}
+
+input 
+{
+	margin-left: 30px;
+	background-color: #0B4D9C;
+	border-radius: 10px;
+	text-align: center;
+	height: 25px;
+	width: 20%;
+	color: white;
+	font-size: 15px;
+	border-color: black;
+	position: absolute;
+	left: 30%;
+}
+
+
+
+select
+{
+		border-radius: 10px;
+		width: 50px;
+		background-color: #0B4D9C;
+		color: white;
+		font-size: 15px;
+		border-color: black;
+}
+
+footer
+{
+  background-color: #0B4D9C;
+  color: white;
+  font-size: 17px;
+	text-align: center;
+}

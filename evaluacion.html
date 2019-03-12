@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="STYLESHEET" type="text/css" href="evaluacion.css"></link>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="UTF-8">
+      <script  src="eval.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="Logo_USTA_2018.png"><hr>
+    </header>
+
+    <nav>
+      <a href="registro.html"><img src="registro_logo.gif">Registro</a>
+        <a href="teoria.html"><img src="teoria_logo.gif">Teoría</a>
+        <a href="evaluacion.html"><img src="eval_logo.gif">Evaluación</a>
+      <br><br><br>
+    </nav>
+
+    <hr><h1>Evaluación<hr></h1>
+
+  	<p>Para hacer una página primero debemos saber que para
+		el texto que ingresa el usuario se usa el comando
+		&lt input > además se le agrega el tipo de texto,
+		ejemplo si es numérico o es texto o es una contraseña,
+		se pueden ejemplificar mas a fondo con las siguientes
+		preguntas de cultura general. </p>
+
+		<h2>Preguntas abiertas </h2>
+
+			<p>¿De qué país es la caricatura "Condorito"?
+			<input type="text"  id="A1" > <!--Chile--></p>
+
+			<p>¿Quién escribió 'El Diario de Ana Frank'?
+			<input type="text" name = "A2" id="A2"> <!--Ana Frank--></p>
+
+			<p>¿Qué símbolo tiene el niobio en la tabla periódica?
+			<input type="text" name = "A3" id="A3"> <!--Nb--></p>
+
+			<p>¿Quién fundó la Copa Davis?
+			<input type="text" name = "A4" id="A4"> <!--Davis--></p>
+
+			<p>¿Qué marca de raqueta usa Roger Federer?
+			<input type="text" name = "A5" id="A5"> <!--Wilson--></p>
+
+		<h2>Preguntas selección múltiple única respuesta </h2>
+
+			<p>¿Qué duración tiene un partido de fútbol que llega a la tanda de penaltis?
+			<select id = "M1">
+				<option id = "105" value="105">105</option>
+				<option id = "120" value="120">120</option>
+				<option id = "90" value="90">90</option>
+				<option id = "45" value="45">45</option>
+			</select></p>
+			<p>¿Cuántas caras tiene un icosaedro?
+			<select id = "M2">
+				<option id = "16" value="16">16</option>
+				<option id = "20" value="20">20</option>
+				<option id = "8" value="8">8</option>
+				<option id = "24" value="24">24</option>
+			</select></p>
+
+			<p>¿Qué color NO pertenece a la bandera de Colombia?
+			<select id = "M3">
+				<option id = "rojo" value="rojo">rojo</option>
+				<option id = "verde" value="verde">verde</option>
+				<option id = "amarillo" value="amarillo">amarillo</option>
+				<option id = "azul" value="azul">azul</option>
+			</select></p>
+
+			<p>¿De cuántos tiempos se compone un partido de baloncesto?
+			<select id = "M4">
+				<option id = "2" value="2">2</option>
+				<option id = "3" value="3">3</option>
+				<option id = "1" value="1">1</option>
+				<option id = "4" value="4">4</option>
+			</select></p>
+
+			<p>¿Cuál es la capital de Australia?
+			<select id = "M5">
+				<option id = "Sidney" value="Sidney">Sidney</option>
+				<option id = "Melbourne" value="Melbourne">Melbourne</option>
+				<option id = "Perth" value="Perth">Perth</option>
+				<option id = "Canberra" value="Canberra">Canberra</option>
+			</select></p>
+
+		<h2>Preguntas selección múltiple múltiple respuesta </h2>
+
+			<p>¿Cuál es el resultado de 10*2?</p>
+				<p><input type="checkbox" id="MM11" > 20</p>
+				<p><input type="checkbox" id="MM12" >10+10</p>
+				<p><input type="checkbox" id="MM13" >30</p>
+				<p><input type="checkbox" id="MM14" >40</p>
+
+			<p>¿Cuántas vidas tiene un gato?</p>
+				<p><input type="checkbox" id="MM21" >5+3</p>
+				<p><input type="checkbox" id="MM22" >6-1</p>
+				<p><input type="checkbox" id="MM23" >1+6</p>
+				<p><input type="checkbox" id="MM24" >3+4</p>
+
+			<p>¿De qué color es un espejo?</p>
+				<p><input type="checkbox" id="MM31" >Ninguno</p>
+				<p><input type="checkbox" id="MM32" >Todos</p>
+				<p><input type="checkbox" id="MM33" >No tiene color, refleja la luz</p>
+				<p><input type="checkbox" id="MM34" >Transparente </p>
+
+			<p>¿El rayo McQueen tiene seguro de: ?</p>
+				<p><input type="checkbox" id="MM41" >Vida</p>
+				<p><input type="checkbox" id="MM42" >Auto</p>
+				<p><input type="checkbox" id="MM43" >Todo riesgo</p>
+				<p><input type="checkbox" id="MM44" >Laboral</p>
+
+			<p>¿ Medio de transporte maritimo?</p>
+				<p><input type="checkbox" id="MM51" >Barco</p>
+				<p><input type="checkbox" id="MM52" >Carro</p>
+				<p><input type="checkbox" id="MM53" >Moto acuática</p>
+				<p><input type="checkbox" id="MM54" >Moto</p>
+
+		<h2>Preguntas con respuestas numéricas</h2>
+
+			<p>¿Qué número equivale al 16 en hexadecimal?
+			<input type="number" name="documento" id = "PN1"/> <!--10--></p>
+
+			<p>¿Cuántas estrellas tiene la bandera de China?
+			<input type="number" name="documento" id = "PN2"/> <!--5--></p>
+
+			<p>¿Cuántos mandamientos hay en el cristianismo?
+			<input type="number" name="documento" id = "PN3"/> <!--10--></p>
+
+			<p>Calcula: 20 + 100 + 420 =
+			<input type="number" name="documento" id = "PN4"/> <!--540--></p>
+
+			<p>¿En qué año falleció Steve Jobs?
+			<input type="number" name="documento" id = "PN5"/> <!--2011--></p>
+
+    <br><br>
+		<button id = "evaluar"  onclick="cor();">Calificar</button>
+		<!-- <button onclick="cor()">FINALIZAR</button> -->
+		<br><br>
+    <footer>
+       <br>
+         Universidad Santo Tomás © 2019 Todos los derechos reservados
+       <br>
+         Desarrollado por: Carolina Gómez  	Santiago Barragán
+       <br><br>
+    </footer>
+  </body>
+</html>
